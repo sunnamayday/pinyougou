@@ -1,0 +1,315 @@
+/*common style*/
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?b7isui');
+    src: url('../fonts/icomoon.eot?b7isui#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?b7isui') format('truetype'), url('../fonts/icomoon.woff?b7isui') format('woff'), url('../fonts/icomoon.svg?b7isui#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.fr .icomoon {
+    font-family: 'icomoon';
+    line-height: 29px;
+}
+
+
+/*type area*/
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.style-red {
+    color: #c81623;
+}
+
+
+/*top of shortcut */
+
+.shortcut {
+    height: 31px;
+    background-color: #f1f1f1;
+    line-height: 31px;
+}
+
+.shortcut li {
+    float: left;
+    list-style-type: none;
+}
+
+.shortcut li a {
+    text-decoration: none;
+}
+
+.spacer {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 12px 0;
+}
+
+
+/*header area*/
+
+.header {
+    position: relative;
+    height: 105px;
+    /*background-color: pink;*/
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 175px;
+    height: 56px;
+}
+
+.logo a {
+    display: block;
+    /*a 是行内元素*/
+    width: 175px;
+    height: 56px;
+    background: url("../img/logo.png") no-repeat;
+    /*background-color: purple;*/
+    font-size: 0
+}
+
+
+/*search area*/
+
+.search {
+    position: absolute;
+    left: 348px;
+    top: 25px;
+}
+
+.search .text {
+    height: 32px;
+    width: 445px;
+    float: left;
+    border: 2px solid #b1191a;
+    ;
+    color: #ccc;
+    padding-left: 10px;
+}
+
+.btn {
+    height: 36px;
+    width: 82px;
+    float: left;
+    background-color: #b1191a;
+    border: 0;
+    color: #fff;
+}
+
+
+/*hotwords style*/
+
+.hotwords {
+    position: absolute;
+    left: 348px;
+    top: 65px;
+}
+
+.hotwords a {
+    margin: 0 5px;
+}
+
+
+/*shopcar style*/
+
+.shopcar {
+    position: absolute;
+    top: 25px;
+    right: 64px;
+    width: 138px;
+    height: 34px;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+    line-height: 34px;
+    /*text-align: center;*/
+}
+
+.car {
+    font-family: 'icomoon';
+    margin-left: 20px;
+    margin-right: 8px;
+}
+
+.shopcar .count {
+    position: absolute;
+    top: -5px;
+    left: 29px;
+    background-color: #e1251b;
+    height: 14px;
+    line-height: 14px;
+    border-radius: 12px 12px 12px 0;
+    padding: 0 3px;
+    color: #fff;
+}
+
+
+/*nav style*/
+
+.nav {
+    height: 45px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.dropdown {
+    width: 209px;
+    height: 45px;
+    background-color: pink;
+}
+
+.dropdown .dt {
+    width: 100%;
+    height: 100%;
+    background-color: #b1191a;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.dropdown .dd {
+    height: 465px;
+    background-color: #c81623;
+    margin-top: 2px;
+}
+
+.dropdown .dd a {
+    color: #fff;
+}
+
+.menu_item {
+    height: 31px;
+    line-height: 31px;
+    margin-left: 1px;
+    padding-left: 10px;
+    transition: all .5s;
+}
+
+.menu_item:hover {
+    margin-left: 5px;
+}
+
+.menu_item a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.menu_item:hover {
+    background-color: #fff;
+    color: #c81623;
+}
+
+.menu_item:hover a {
+    color: #c81623;
+}
+
+.navitems {
+    margin-left: 10px;
+}
+
+.navitems li {
+    float: left;
+}
+
+.navitems li a {
+    display: block;
+    height: 45px;
+    padding: 0 25px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+/*footer style*/
+
+.footer {
+    height: 386px;
+    background-color: #f5f5f5;
+    padding-top: 30px;
+}
+
+.mod_service {
+    height: 79px;
+    border-bottom: 1px solid #ccc;
+}
+
+.footer li {
+    float: left;
+    height: 79px;
+    width: 240px;
+}
+
+.mod_service_icon {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 35px;
+    background: url(../img/icons.png) no-repeat;
+}
+
+.mod_service_zheng {
+    background-position: -253px -3px;
+}
+
+.mod_service_car {
+    background-position: -254px -54px;
+}
+
+.mod_service_bao {
+    background-position: -256px -106px;
+}
+
+.mod_service_star {
+    background-position: -258px -157px;
+}
+
+.mod_service_question {
+    background-position: -258px -208px;
+}
+
+.mod_service_title {
+    float: left;
+    margin-left: 5px;
+}
+
+.mod_help {
+    height: 187px;
+    border-bottom: 1px solid #ccc;
+}
+
+.mod_help_item {
+    float: left;
+    width: 150px;
+    padding: 20px 0 0 50px;
+}
+
+.mod_help_item dd {
+    height: 23px;
+}
+
+.mod_copyright {
+    text-align: center;
+}
+
+.mod_help_app dt,
+.mod_help_app p {
+    padding-left: 15px;
+}
